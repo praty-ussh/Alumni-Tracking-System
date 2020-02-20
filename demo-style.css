@@ -1,0 +1,519 @@
+
+.pading-bottom-30{
+	padding-bottom: 30px!important;
+}
+.demo-box-bg { 
+    text-align: center;
+    padding: 10px 0;
+}
+
+.bg-1{
+	background: #ff5252;
+}
+
+.demo-name h3 {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.bg_area_1{
+    background: #f7f9fb;
+    padding: 50px 0;
+}
+
+.box-shadow{
+    padding: 40px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-shadow: 0px 20px 150px #d6dee4;
+}
+
+
+.captcha{
+	position: absolute;
+	margin-top: 15px;
+	z-index: 99;
+	right: 0;
+}
+.form-box-size {
+    margin: 0 auto;
+    max-width: 480px;
+    text-align: center;
+}
+.login-form-3 .form-wrapper { 
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+ 
+}
+
+.login-form-3 .form-group {
+  position: relative;
+}
+
+.login-form-3 .form-group i {
+    position: absolute;
+    left: 0;
+    top: 16px;
+}
+
+.login-form-3 .form-group + .form-group {
+  margin-top: 30px;
+}
+
+.login-form-3 .form-label {
+    position: absolute;
+    left: 35px;
+    top: 10px;
+    color: #71818c;
+    background-color: #fff;
+    z-index: 10;
+    transition: font-size 150ms ease-out, -webkit-transform 150ms ease-out;
+    transition: transform 150ms ease-out, font-size 150ms ease-out;
+    transition: transform 150ms ease-out, font-size 150ms ease-out, -webkit-transform 150ms ease-out;
+    font-size: 18px;
+}
+
+.login-form-3 .focused .form-label {
+  -webkit-transform: translateY(-125%);
+          transform: translateY(-125%);
+  font-size: .75em;
+}
+
+.login-form-3 .form-input {
+    position: relative;
+    padding: 25px 0px 5px 0;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 1px 0 0 #e5e5e5;
+    transition: box-shadow 150ms ease-out;
+        padding-left: 30px;
+}
+.login-form-3 .form-input:focus {
+  box-shadow: 0 2px 0 0 blue;
+}
+
+
+.login-form-3 .form-input.filled {
+  box-shadow: 0 2px 0 0 lightgreen;
+}
+
+ 
+
+.login-form-3 .checkbox {
+    padding: 20px 0;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    text-align: left;
+}
+.login-form-3 .checkbox label {
+  cursor: pointer;
+  padding-left: 0;
+}
+.login-form-3 .checkbox input[type=checkbox] {
+  opacity: 0;
+  position: absolute;
+  margin: 0;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  left: 0;
+  pointer-events: none;
+}
+.login-form-3 .checkbox .checkbox-material {
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+    padding-right: 10px;
+}
+.login-form-3 .checkbox .checkbox-material:before {
+  position: absolute;
+  left: 8px;
+  top: 2px;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 4px;
+  width: 4px;
+  border-radius: 100%;
+  z-index: 1;
+  opacity: 0;
+  margin: 0;
+}
+.login-form-3 .checkbox .checkbox-material .check {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  border-radius: 2px;
+  overflow: hidden;
+  z-index: 1;
+}
+.login-form-3 .checkbox .checkbox-material .check:before {
+  position: absolute;
+  content: "";
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  display: block;
+  margin-top: -4px;
+  margin-left: 6px;
+  width: 0;
+  height: 0;
+  box-shadow: 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0 inset;
+  -webkit-animation: checkbox-off 0.3s forwards ease-out;
+          animation: checkbox-off 0.3s forwards ease-out;
+}
+.login-form-3 .checkbox input[type=checkbox]:focus + .checkbox-material .check:after {
+  opacity: 0.2;
+}
+.login-form-3 .checkbox input[type=checkbox]:checked + .checkbox-material .check:before {
+  box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
+  -webkit-animation: checkbox-on 0.3s forwards ease-out;
+          animation: checkbox-on 0.3s forwards ease-out;
+}
+.login-form-3 .checkbox input[type=checkbox]:not(:checked) + .checkbox-material:before {
+  -webkit-animation: rippleOff 700ms forwards ease-out;
+          animation: rippleOff 700ms forwards ease-out;
+}
+.login-form-3 .checkbox input[type=checkbox]:checked + .checkbox-material:before {
+  -webkit-animation: rippleOn 700ms forwards ease-out;
+          animation: rippleOn 700ms forwards ease-out;
+}
+.login-form-3 .checkbox input[type=checkbox]:not(:checked) + .checkbox-material .check:after {
+  -webkit-animation: rippleOff 700ms forwards ease-out;
+          animation: rippleOff 700ms forwards ease-out;
+}
+.login-form-3.checkbox input[type=checkbox]:checked + .checkbox-material .check:after {
+  -webkit-animation: rippleOn 700ms forwards ease-out;
+          animation: rippleOn 700ms forwards ease-out;
+}
+.login-form-3 .checkbox input[type=checkbox][disabled]:not(:checked) ~ .checkbox-material .check:before,
+.checkbox input[type=checkbox][disabled] + .circle {
+  opacity: 0.5;
+}
+.login-form-3.checkbox input[type=checkbox][disabled] + .checkbox-material .check:after {
+  background-color: rgba(0, 0, 0, 0.84);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+
+
+@-webkit-keyframes checkbox-on {
+  0% {
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px;
+  }
+  50% {
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px;
+  }
+  100% {
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
+  }
+}
+
+@keyframes checkbox-on {
+  0% {
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px;
+  }
+  50% {
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px;
+  }
+  100% {
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
+  }
+}
+@-webkit-keyframes checkbox-off {
+  0% {
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px, 0 0 0 0 inset;
+  }
+  25% {
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px, 0 0 0 0 inset;
+  }
+  50% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    margin-top: -4px;
+    margin-left: 6px;
+    width: 0px;
+    height: 0px;
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px, 0 0 0 0 inset;
+  }
+  51% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    margin-top: -2px;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0px 0px 0 10px inset;
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    margin-top: -2px;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0px 0px 0 0px inset;
+  }
+}
+@keyframes checkbox-off {
+  0% {
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px, 0 0 0 0 inset;
+  }
+  25% {
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px, 0 0 0 0 inset;
+  }
+  50% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    margin-top: -4px;
+    margin-left: 6px;
+    width: 0px;
+    height: 0px;
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px, 0 0 0 0 inset;
+  }
+  51% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    margin-top: -2px;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0px 0px 0 10px inset;
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    margin-top: -2px;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0px 0px 0 0px inset;
+  }
+}
+@-webkit-keyframes rippleOn {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(13, 13);
+            transform: scale(13, 13);
+  }
+}
+@keyframes rippleOn {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(13, 13);
+            transform: scale(13, 13);
+  }
+}
+@-webkit-keyframes rippleOff {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(13, 13);
+            transform: scale(13, 13);
+  }
+}
+@keyframes rippleOff {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(13, 13);
+            transform: scale(13, 13);
+  }
+}
+
+.login-form-title-3 {
+    margin-bottom: 50px;
+} 
+
+.login-form-3 .login-form-title-3 h3{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+ 
+
+.login-form-3 .button.login {
+    display: block;
+    text-align: center;
+    box-shadow: 0px 5px 20px #d6dee4;
+    -moz-box-shadow: 0px 5px 20px #d6dee4;
+    -webkit-box-shadow: 0px 5px 20px #d6dee4;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+    background-color: #ff5252;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 60px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.login-form-3 .button.login i {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.login-form-3 .button.login:hover {
+    background-color: #4843d2;
+    box-shadow: 0px 10px 30px #aab9c3;
+    -moz-box-shadow: 0px 10px 30px #aab9c3;
+    -webkit-box-shadow: 0px 10px 30px #aab9c3;
+    text-decoration: none;
+}
+
+.login-form-3{
+    position: relative;
+}
+.login-form-title-3 {
+    position: absolute;
+    top: -15px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+.login-form-title-3 h3 {
+    background: #ff5252;
+     color: #fff;
+    line-height: 40px;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}
+.login-img {
+    margin: 20px 0 30px 0;
+}
+.login-img img {
+    width: 40%;
+    border: 5px solid #ff5252;
+    border-radius: 100%;
+}
+.login-form-3 .do_you_have {
+    margin: 30px 0 0 0;
+}
+
+.login-form-3 .do_you_have p {
+    font-size: 16px;
+}
+
+.login-form-3 .do_you_have a{
+    color: #4843d2;
+    text-decoration: none;
+}
+.login-form-3 .forgets{
+    padding-top: 20px;
+}
+
+
+
+@media (max-width : 1024px) {
+	.domo-box white-bg-bottom {
+		margin-bottom: 50px;
+	}
+	.demo-title {
+		text-align: center;
+		padding: 60px 0;
+	}
+	.domo-box white-bg-3::before {
+		width: 100% !important; 
+	}
+    
+    
+    
+    
+    
+	
+}
+@media (max-width : 768px) {
+	.domo-box white-bg-bottom {
+		margin-bottom: 50px;
+	}
+	.demo-title {
+		text-align: center;
+		padding: 60px 0;
+	}
+	.domo-box white-bg-3::before {
+		width: 100% !important; 
+	}
+    
+    
+    
+	
+}
+@media (max-width : 767px){ 
+	.domo-box white-bg-bottom {
+		margin-bottom: 50px;
+	}
+	.demo-title {
+		text-align: center;
+		padding: 60px 0;
+	}
+	.domo-box white-bg-3::before {
+		width: 100% !important; 
+	}
+    
+    
+    
+	
+}
+
+
+@media (max-width : 479px) {
+	.domo-box white-bg-bottom {
+		margin-bottom: 50px;
+	}
+	.demo-title {
+		text-align: center;
+		padding: 60px 0;
+	}
+	.domo-box white-bg-3::before {
+		width: 100% !important; 
+	}
+
+     .form-box-size {
+        margin: 0 5px;
+    }
+
+     .form-box-size-2{
+        margin: 0 30px;
+    }	
+}
+
+  
